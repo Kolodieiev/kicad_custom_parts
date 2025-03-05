@@ -62,17 +62,6 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "e83998f3-de83-4011-b15a-35148dd04eaa")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 6.6 0)
-		(stroke
-			(width 0.5)
-			(type solid)
-		)
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "2cec537e-6e53-4385-b977-d083fb23054a")
@@ -144,10 +133,6 @@
 			"839ccbee-d7d7-43bf-af40-9886748ea34b" "87be9177-a0f3-417d-b9d3-a1f2b254a210"
 			"92fd6c3d-40d1-4fd6-ab6c-11a8057b75a5" "c5264f73-d6bb-43b3-9138-a297168ecd67"
 		)
-	)
-	(group ""
-		(uuid "f5411709-0449-45e1-9821-f77e5b4bd571")
-		(members "2cec537e-6e53-4385-b977-d083fb23054a" "e83998f3-de83-4011-b15a-35148dd04eaa")
 	)
 	(embedded_fonts no)
 )
