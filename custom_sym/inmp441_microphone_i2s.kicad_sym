@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20241209)
+	(version 20231120)
 	(generator "kicad_symbol_editor")
-	(generator_version "9.0")
+	(generator_version "8.0")
 	(symbol "INMP441_Microphone_I2S"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:INMP441_I2S_Module"
+		(property "Footprint" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -51,9 +51,9 @@
 		)
 		(symbol "INMP441_Microphone_I2S_1_1"
 			(arc
-				(start -5.75 2.54)
+				(start -5.75 -2.54)
 				(mid -4.8513 0)
-				(end -5.75 -2.54)
+				(end -5.75 2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -85,15 +85,51 @@
 				)
 			)
 			(arc
-				(start 5.75 -2.54)
+				(start 5.75 2.54)
 				(mid 4.8513 0)
-				(end 5.75 2.54)
+				(end 5.75 -2.54)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
 					(type none)
+				)
+			)
+			(pin power_in line
+				(at 2.54 -3.81 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 2.54 3.81 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L/R"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 			(pin bidirectional line
@@ -132,24 +168,6 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 0 3.81 270)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "WS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 0 -3.81 90)
 				(length 2.54)
@@ -168,8 +186,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 2.54 3.81 270)
+			(pin bidirectional line
+				(at 0 3.81 270)
 				(length 2.54)
 				(name ""
 					(effects
@@ -178,25 +196,7 @@
 						)
 					)
 				)
-				(number "L/R"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 2.54 -3.81 90)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "GND"
+				(number "WS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -205,6 +205,5 @@
 				)
 			)
 		)
-		(embedded_fonts no)
 	)
 )
