@@ -22,8 +22,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "custom:INMP441_I2S_Module"
+			(at -1.778 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
