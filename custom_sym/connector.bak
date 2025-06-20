@@ -542,8 +542,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "custom:LoRa_E220-400T_UART_module"
+			(at 0 8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -571,8 +571,8 @@
 		)
 		(symbol "LoRa_E220-400T_UART_module_1_1"
 			(rectangle
-				(start -8.89 -2.54)
-				(end 8.89 3.81)
+				(start -8.89 3.81)
+				(end 8.89 -2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -1247,6 +1247,52 @@
 						)
 					)
 				)
+			)
+		)
+	)
+	(symbol "LoRa_E32_UART_Module"
+		(extends "LoRa_E220-400T_UART_module")
+		(property "Reference" "LoRa1"
+			(at -0.254 5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "E32-433T33D:E32-433T33D"
+			(at 0 8.382 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 	)
