@@ -1,0 +1,181 @@
+(footprint "PJ-393_8PJ"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 3 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b1012e40-da75-4011-8487-117deb899377")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PJ-393_8PJ"
+		(at 2.5 -6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cad66455-6757-4e7f-acfe-7df3ea10146b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1d49d06-c6d5-45f4-9626-a82537f32002")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25ea28e2-a72d-4012-9854-91970ef29977")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "927d6a76-6ed1-4e6e-b627-4b5bf61f0358")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 0 0)
+		(end 6 13.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "a0608e1c-af5f-4d72-96c4-534787f48415")
+	)
+	(fp_rect
+		(start 0.25 -1.2)
+		(end 5.75 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "78b508b9-8134-4810-9375-783a60b5b232")
+	)
+	(pad "" np_thru_hole circle
+		(at 3 2.3)
+		(size 0.8 0.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "2f8376f3-7880-4fd0-8a3c-b3b210153c00")
+	)
+	(pad "" np_thru_hole circle
+		(at 3 9.3)
+		(size 0.8 0.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
+		(uuid "71eb1afe-7dd5-470d-ba1c-8c065bc6de59")
+	)
+	(pad "1" smd roundrect
+		(at -0.6 2.8)
+		(size 1.2 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "a3533667-2aec-4f7f-a79e-ef82b3c76255")
+	)
+	(pad "2" smd roundrect
+		(at -0.6 5.8)
+		(size 1.2 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "a7bd1756-2cba-417a-bfb4-29a21e8004e3")
+	)
+	(pad "3" smd roundrect
+		(at -0.6 8.65)
+		(size 1.2 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "c675fd4f-dadb-41ad-96eb-68c756dc72f4")
+	)
+	(pad "5" smd roundrect
+		(at 6.6 1.95)
+		(size 1.2 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "0dc107ec-f221-4ffe-bcfd-51a8678018b9")
+	)
+	(pad "6" smd roundrect
+		(at 6.6 3.7)
+		(size 1.2 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "4cf986b9-c496-40f0-bc03-a19db8e79bb7")
+	)
+	(pad "6" smd roundrect
+		(at 6.6 8.8)
+		(size 1.2 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "a96ecf54-465e-4652-bed8-30a6ca12505c")
+	)
+	(pad "7" smd roundrect
+		(at 6.6 6.55)
+		(size 1.2 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "edd76c46-bd00-485f-8d3c-a4e6a1812acd")
+	)
+	(pad "8" smd roundrect
+		(at -0.6 10.9)
+		(size 1.2 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.05)
+		(thermal_bridge_angle 45)
+		(uuid "30085370-5fe6-47a6-abcd-93f70774d77a")
+	)
+)
