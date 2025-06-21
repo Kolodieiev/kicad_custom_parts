@@ -542,7 +542,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:LoRa_E220-400T_UART_module"
+		(property "Footprint" "custom:PE22-400T22D"
 			(at 0 8.382 0)
 			(effects
 				(font
