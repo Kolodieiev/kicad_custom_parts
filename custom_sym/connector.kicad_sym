@@ -1268,7 +1268,7 @@
 				)
 			)
 		)
-		(property "Footprint" "E32-433T33D:E32-433T33D"
+		(property "Footprint" "custom:E32-433T33D"
 			(at 0 8.382 0)
 			(effects
 				(font
