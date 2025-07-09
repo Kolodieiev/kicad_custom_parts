@@ -36,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +62,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -177,33 +180,33 @@
 		)
 	)
 	(pad "1" thru_hole rect
-		(at 1.5 1.6)
-		(size 1.7 1.5)
-		(drill 1)
+		(at 1.5 1.6 270)
+		(size 2.3 2.3)
+		(drill 0.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "3b07aba7-3cf7-4ad8-ab37-bf1c99aa3492")
 	)
 	(pad "2" thru_hole rect
-		(at 1.5 15.6)
-		(size 1.7 1.5)
-		(drill 1)
+		(at 1.5 15.6 270)
+		(size 2.3 2.3)
+		(drill 0.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "0543c102-ceb1-41d8-9924-d5b08697d7b0")
 	)
 	(pad "3" thru_hole rect
-		(at 24.5 1.6)
-		(size 1.7 1.5)
-		(drill 1)
+		(at 24.5 1.6 270)
+		(size 2.3 2.3)
+		(drill 0.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "dc0cc81a-c94f-47fb-9f46-202dd1d95448")
 	)
 	(pad "4" thru_hole rect
-		(at 24.5 15.6)
-		(size 1.7 1.5)
-		(drill 1)
+		(at 24.5 15.6 270)
+		(size 2.3 2.3)
+		(drill 0.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "9b7beac6-bb00-443e-acd8-506d03ded91a")

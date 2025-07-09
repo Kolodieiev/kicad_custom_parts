@@ -63,7 +63,7 @@
 			)
 			(polyline
 				(pts
-					(xy 3.81 -2.54) (xy 4.318 -2.286)
+					(xy 1.27 -13.97) (xy 1.524 -14.478)
 				)
 				(stroke
 					(width 0)
@@ -75,7 +75,7 @@
 			)
 			(polyline
 				(pts
-					(xy 6.35 -5.08) (xy 6.858 -4.826)
+					(xy 3.81 -13.97) (xy 4.064 -14.478)
 				)
 				(stroke
 					(width 0)
@@ -87,7 +87,7 @@
 			)
 			(polyline
 				(pts
-					(xy 8.89 -7.62) (xy 9.398 -7.366)
+					(xy 6.35 -13.97) (xy 6.604 -14.478)
 				)
 				(stroke
 					(width 0)
@@ -99,7 +99,7 @@
 			)
 			(polyline
 				(pts
-					(xy 11.43 -10.16) (xy 11.938 -9.906)
+					(xy 8.89 -13.97) (xy 9.144 -14.478)
 				)
 				(stroke
 					(width 0)
@@ -111,7 +111,7 @@
 			)
 			(polyline
 				(pts
-					(xy 13.97 -10.16) (xy 11.43 -10.16) (xy 11.938 -10.414)
+					(xy 1.2716 -16.4023) (xy 1.27 -13.97) (xy 1.016 -14.478)
 				)
 				(stroke
 					(width 0)
@@ -123,7 +123,7 @@
 			)
 			(polyline
 				(pts
-					(xy 13.97 -7.62) (xy 8.89 -7.62) (xy 9.398 -7.874)
+					(xy 3.8116 -16.4023) (xy 3.81 -13.97) (xy 3.556 -14.478)
 				)
 				(stroke
 					(width 0)
@@ -135,7 +135,7 @@
 			)
 			(polyline
 				(pts
-					(xy 13.97 -5.08) (xy 6.35 -5.08) (xy 6.858 -5.334)
+					(xy 6.3516 -16.4023) (xy 6.35 -13.97) (xy 6.096 -14.478)
 				)
 				(stroke
 					(width 0)
@@ -147,7 +147,7 @@
 			)
 			(polyline
 				(pts
-					(xy 13.97 -2.54) (xy 3.81 -2.54) (xy 4.318 -2.794)
+					(xy 8.8916 -16.4023) (xy 8.89 -13.97) (xy 8.636 -14.478)
 				)
 				(stroke
 					(width 0)
@@ -207,9 +207,9 @@
 			)
 		)
 		(symbol "PJ-393-8PJ_1_1"
-			(rectangle
-				(start 0 0)
-				(end 13.97 -16.51)
+			(text_box ""
+				(at 0 0 0)
+				(size 13.97 -16.51)
 				(stroke
 					(width 0)
 					(type default)
@@ -218,8 +218,14 @@
 					(type color)
 					(color 255 255 194 1)
 				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
 			)
-			(pin passive line
+			(pin input line
 				(at 16.51 -1.27 180)
 				(length 2.54)
 				(name "M"
@@ -237,8 +243,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 16.51 -2.54 180)
+			(pin input line
+				(at 1.27 -19.05 90)
 				(length 2.54)
 				(name "MN"
 					(effects
@@ -255,7 +261,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 16.51 -3.81 180)
 				(length 2.54)
 				(name "G"
@@ -273,8 +279,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 16.51 -5.08 180)
+			(pin output line
+				(at 3.81 -19.05 90)
 				(length 2.54)
 				(name "GN"
 					(effects
@@ -291,7 +297,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 16.51 -6.35 180)
 				(length 2.54)
 				(name "R"
@@ -309,8 +315,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 16.51 -7.62 180)
+			(pin output line
+				(at 6.35 -19.05 90)
 				(length 2.54)
 				(name "RN"
 					(effects
@@ -327,7 +333,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 16.51 -8.89 180)
 				(length 2.54)
 				(name "L"
@@ -345,8 +351,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 16.51 -10.16 180)
+			(pin output line
+				(at 8.89 -19.05 90)
 				(length 2.54)
 				(name "LN"
 					(effects

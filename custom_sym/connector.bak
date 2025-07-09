@@ -1000,33 +1000,15 @@
 				)
 			)
 			(text "=WCLK"
-				(at 2.54 -3.81 0)
+				(at 2.54 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(pin no_connect line
-				(at -8.89 3.81 0)
-				(length 2.54)
-				(name "SCK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at -8.89 1.27 0)
+				(at -8.89 2.54 0)
 				(length 2.54)
 				(name "BCK"
 					(effects
@@ -1044,7 +1026,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 -1.27 0)
+				(at -8.89 0 0)
 				(length 2.54)
 				(name "DIN"
 					(effects
@@ -1062,7 +1044,7 @@
 				)
 			)
 			(pin input line
-				(at -8.89 -3.81 0)
+				(at -8.89 -2.54 0)
 				(length 2.54)
 				(name "LRCK"
 					(effects
@@ -1137,7 +1119,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "custom:PCM5102A-Module-Shortened"
 			(at 0 0 0)
 			(effects
 				(font

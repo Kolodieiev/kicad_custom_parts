@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 7.62 -12.7 0)
+			(at 7.62 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "custom:PAM8403_Module"
-			(at 5.08 2.54 0)
+			(at 8.89 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52,7 +52,7 @@
 		(symbol "PAM8403_Module_1_1"
 			(rectangle
 				(start 0 0)
-				(end 10.16 -22.86)
+				(end 15.24 -10.16)
 				(stroke
 					(width 0)
 					(type default)
@@ -62,43 +62,7 @@
 				)
 			)
 			(pin output line
-				(at -2.54 -11.43 0)
-				(length 2.54)
-				(name "+L-OUT"
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -2.54 -13.97 0)
-				(length 2.54)
-				(name "+R-OUT"
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -2.54 -8.89 0)
+				(at 17.78 -1.27 180)
 				(length 2.54)
 				(name "-L-OUT"
 					(effects
@@ -107,7 +71,7 @@
 						)
 					)
 				)
-				(number "7"
+				(number "1"
 					(effects
 						(font
 							(size 0.8 0.8)
@@ -116,7 +80,43 @@
 				)
 			)
 			(pin output line
-				(at -2.54 -16.51 0)
+				(at 17.78 -3.81 180)
+				(length 2.54)
+				(name "+L-OUT"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 -6.35 180)
+				(length 2.54)
+				(name "+R-OUT"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 -8.89 180)
 				(length 2.54)
 				(name "-R-OUT"
 					(effects
@@ -125,7 +125,7 @@
 						)
 					)
 				)
-				(number "7"
+				(number "4"
 					(effects
 						(font
 							(size 0.8 0.8)
@@ -134,25 +134,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -3.81 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 0.8 0.8)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 -1.27 0)
+				(at -2.54 -7.62 0)
 				(length 2.54)
 				(name "L-IN"
 					(effects
@@ -161,7 +143,7 @@
 						)
 					)
 				)
-				(number "7"
+				(number "5"
 					(effects
 						(font
 							(size 0.8 0.8)
@@ -170,7 +152,25 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -6.35 0)
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "AGND"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.8 0.8)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -2.54 -5.08 0)
 				(length 2.54)
 				(name "R-IN"
 					(effects
@@ -188,7 +188,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -21.59 0)
+				(at 7.62 2.54 270)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -206,7 +206,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -19.05 0)
+				(at 7.62 -12.7 90)
 				(length 2.54)
 				(name "GND"
 					(effects
