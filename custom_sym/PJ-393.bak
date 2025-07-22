@@ -207,38 +207,6 @@
 			)
 		)
 		(symbol "PJ-393-8PJ_1_1"
-			(text "G"
-				(at 13.1761 -3.2544 0)
-				(effects
-					(font
-						(size 0.7 0.7)
-					)
-				)
-			)
-			(text "L"
-				(at 13.1761 -8.3609 0)
-				(effects
-					(font
-						(size 0.7 0.7)
-					)
-				)
-			)
-			(text "M"
-				(at 13.1761 -0.7272 0)
-				(effects
-					(font
-						(size 0.7 0.7)
-					)
-				)
-			)
-			(text "R"
-				(at 13.1893 -5.8081 0)
-				(effects
-					(font
-						(size 0.7 0.7)
-					)
-				)
-			)
 			(text_box ""
 				(at 0 0 0)
 				(size 13.97 -16.51)
