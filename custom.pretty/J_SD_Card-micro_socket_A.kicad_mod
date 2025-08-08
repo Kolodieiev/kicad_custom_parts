@@ -357,14 +357,24 @@
 		(at -4.015032 -3.478145)
 		(size 0.9 0.9)
 		(drill 0.9)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(uuid "0a53b483-85ae-417c-80a2-f8a575957058")
 	)
 	(pad "" np_thru_hole circle
 		(at 3.984968 -3.478145)
 		(size 0.9 0.9)
 		(drill 0.9)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu"
+			"In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu"
+			"In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu"
+			"In29.Cu" "In30.Cu"
+		)
 		(uuid "a1ffb9cc-05e9-496a-8ebc-efbbf5f305db")
 	)
 	(pad "1" smd rect
@@ -470,8 +480,8 @@
 		)
 		(polygon
 			(pts
-				(xy -8.175 3.5) (xy 6.45 3.5) (xy 6.45 5.775) (xy 6.125 5.775) (xy 6.125 6.175) (xy -3.625 6.175)
-				(xy -3.625 6.875) (xy -6.95 6.875) (xy -6.95 5.75) (xy -8.175 5.75)
+				(xy -8.171477 -0.531123) (xy 6.453523 -0.531123) (xy 6.45 5.775) (xy 6.125 5.775) (xy 6.125 6.175)
+				(xy -3.625 6.175) (xy -3.625 6.875) (xy -6.95 6.875) (xy -6.95 5.75) (xy -8.175 5.75)
 			)
 		)
 	)
