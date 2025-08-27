@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "M"
-			(at 0 12.7 0)
+			(at 7.874 0 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "custom:INMP441_I2S_Module"
-			(at -1.778 19.05 0)
+			(at 0.254 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64,17 +64,6 @@
 			)
 			(circle
 				(center 0 0)
-				(radius 0.9)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(circle
-				(center 0 0)
 				(radius 6.35)
 				(stroke
 					(width 0)
@@ -82,6 +71,17 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 0.9)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
 				)
 			)
 			(arc
@@ -97,16 +97,16 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -3.81 90)
-				(length 2.54)
-				(name ""
+				(at 0 3.81 270)
+				(length 0.0254)
+				(name "VDD"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.508 0.508)
 						)
 					)
 				)
-				(number "GND"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -114,53 +114,17 @@
 					)
 				)
 			)
-			(pin input line
+			(pin bidirectional line
 				(at 2.54 3.81 270)
-				(length 2.54)
-				(name ""
+				(length 0.0254)
+				(name "SD"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.508 0.508)
 						)
 					)
 				)
-				(number "L/R"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -2.54 3.81 270)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "SCK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -2.54 -3.81 90)
-				(length 2.54)
-				(name ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "SD"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -169,16 +133,16 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -3.81 90)
-				(length 2.54)
-				(name ""
+				(at -2.54 3.81 270)
+				(length 0.0254)
+				(name "GND"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0.508 0.508)
 						)
 					)
 				)
-				(number "VDD"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -187,16 +151,52 @@
 				)
 			)
 			(pin bidirectional line
-				(at 0 3.81 270)
-				(length 2.54)
-				(name ""
+				(at 0 -3.81 90)
+				(length 0.0254)
+				(name "WS"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "WS"
+			)
+			(pin input line
+				(at -2.54 -3.81 90)
+				(length 0.0254)
+				(name "L/R"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 2.54 -3.81 90)
+				(length 0.0254)
+				(name "SCK"
+					(effects
+						(font
+							(size 0.508 0.508)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)

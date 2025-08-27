@@ -1159,17 +1159,17 @@
 				)
 			)
 			(text "=WCLK"
-				(at 7.62 -12.7 0)
+				(at 7.62 -11.43 0)
 				(effects
 					(font
 						(size 1 1)
 					)
 				)
 			)
-			(pin no_connect line
-				(at -2.54 -5.08 0)
+			(pin input line
+				(at -2.54 -6.35 0)
 				(length 2.54)
-				(name "SCK"
+				(name "BCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1185,9 +1185,9 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -7.62 0)
+				(at -2.54 -8.89 0)
 				(length 2.54)
-				(name "BCK"
+				(name "DIN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1203,25 +1203,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -10.16 0)
-				(length 2.54)
-				(name "DIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 -12.7 0)
+				(at -2.54 -11.43 0)
 				(length 2.54)
 				(name "LRCK"
 					(effects
@@ -1230,7 +1212,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1248,7 +1230,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1266,7 +1248,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1284,7 +1266,7 @@
 						)
 					)
 				)
-				(number "7"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1302,7 +1284,7 @@
 						)
 					)
 				)
-				(number "8"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1320,7 +1302,7 @@
 						)
 					)
 				)
-				(number "9"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
