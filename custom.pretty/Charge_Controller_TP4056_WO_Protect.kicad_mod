@@ -79,7 +79,7 @@
 		(uuid "77d50f00-0f70-4c7c-ba9b-9c2cbac234ab")
 	)
 	(pad "1" thru_hole circle
-		(at 1.5 1.5)
+		(at 1.4 1.5)
 		(size 3 3)
 		(drill 0.3)
 		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
@@ -92,7 +92,7 @@
 		(uuid "4a9686bb-2713-4bed-8d35-b68e7c5f2dc7")
 	)
 	(pad "2" thru_hole circle
-		(at 1.5 15.5)
+		(at 1.4 15.5)
 		(size 3 3)
 		(drill 0.3)
 		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
@@ -105,7 +105,7 @@
 		(uuid "455bd98c-414a-4364-a76a-59716202d2c5")
 	)
 	(pad "2" thru_hole circle
-		(at 20 15.5)
+		(at 20.1 15.5)
 		(size 3 3)
 		(drill 0.3)
 		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
@@ -118,7 +118,7 @@
 		(uuid "c7b4faab-03f0-497f-ad96-e50aa34edb21")
 	)
 	(pad "3" thru_hole circle
-		(at 20 1.484879)
+		(at 20.1 1.484879)
 		(size 3 3)
 		(drill 0.3)
 		(layers "*.Cu" "*.Mask" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
